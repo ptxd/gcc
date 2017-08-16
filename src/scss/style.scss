@@ -310,7 +310,7 @@ header{
 
 .card-text{
     margin-top:1em;
-    text-align: center;
+    text-align: justify;
     word-wrap: break-word;
 }
 
@@ -369,11 +369,11 @@ header{
     height:60em;
     width:100% !important;
     text-align: center;
-    background:url('https://images3.alphacoders.com/302/30269.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+    // background:url('https://images3.alphacoders.com/302/30269.jpg');
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-attachment: fixed;
+    // background-position: center;
     h1{
         padding-top:2em;
         font-family: 'Cutive Mono', monospace;
@@ -383,21 +383,24 @@ header{
         color:white;
     }
     .card-deck{
-        margin:5em auto 0 auto;
+        margin:3em auto 0 auto;
         font-family: 'Cormorant', serif;
         width:60%;
     }
     .card{
-        background:rgba(0, 0, 0, 0.75) !important;
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
         border-radius:25px;
         height:30em;
         padding-top:3em;
     }
     .c1-div1{
-        margin:3em auto 0 auto;
+        display: inline-block;
+        border-radius:25px;
+        margin:5em auto 0 auto;
         width:60%;
-        height:10em;
+        height:15em;
         padding-top:1.5em;
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #0ff, 0 0 35px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 75px #0ff;
         h1{
             padding-top: 1em;
             text-align: center;
@@ -405,14 +408,119 @@ header{
             font-size: 1.5em;
             letter-spacing: 2px;
             color: white;
-            margin-bottom: 0em;
+            margin-bottom: 1em;
             font-weight:500;
         }
         h3{
             font-family: 'system-ui', serif;
             font-size: 1em;
             letter-spacing: 2px;
+            line-height:24px;
             color:white;
+            text-align: justify;
+            padding: 0 20px;
         }
+    }
+}
+.c1-div2-title{
+    padding-top: 5em;
+    h1{
+        padding-top:2em;
+        font-family: 'Cutive Mono', monospace;
+        font-size: 3.0em;
+        letter-spacing:0.25em;
+        color:white;
+    }
+}
+.c1-div2{
+    margin:0em auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    .card{
+        // box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+        box-shadow:none;
+        width:100%;
+        height:18em;
+    }
+    .card-block{
+        height:5em;
+    }
+    .card-text{
+        width:inherit;
+        height:0px;
+        font-family: 'system-ui', serif;
+    }
+}
+
+.c1-div3{
+    margin-top:3em;
+    .c1-div3-bd{
+        margin:0 auto;
+        width:60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-around;
+    }
+    .img-bd{
+        position:relative;
+    }
+    div>img{
+        margin-top:3em;
+        position: relative;
+        width:450px;
+        height:300px;
+        border-radius:25px;
+        display: block;
+    }
+    .overlay {
+        position: absolute;
+        margin-top:2em;
+        color:white;
+        border-radius:25px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 300px;
+        width: 450px;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: $hiwbg-color;
+        padding-top:6em;
+        padding-left:6px;
+        line-height:24px;
+        font-size:24px;
+    }
+    .img-bd:hover .overlay{
+        opacity: 1;
+    }
+    h1{
+            padding-top: 1em;
+            margin-bottom:0 !important;
+            text-align: center;
+            font-family: 'Cormorant', serif;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            color: white;
+            margin-bottom: 2em;
+            font-weight:500;
+        }
+    h3{
+        margin:0 auto;
+        width:60%;
+        font-family: 'system-ui', serif;
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height:24px;
+        color:white;
+        text-align: center;
+        padding-top:3em;
     }
 }
