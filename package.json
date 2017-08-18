@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.6",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2",
     "node-sass-chokidar": "0.0.3",
     "normalize-css": "^2.3.1",
     "npm-run-all": "^4.0.2",
@@ -12,9 +15,11 @@
     "react-addons-transition-group": "^15.6.0",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.2",
-    "reactstrap": "^4.8.0"
+    "reactstrap": "^4.8.0",
+    "redux": "^3.7.2"
   },
   "devDependencies": {
+    "nodemon": "^1.11.0",
     "react-scripts": "1.0.11"
   },
   "scripts": {
