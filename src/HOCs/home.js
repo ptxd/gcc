@@ -59,7 +59,7 @@ class Home extends Component {
                     </CardDeck>
                     <div className="c1-div1">
                         <h1>You Have Been Invited To Join The Guild of GCC!</h1>
-                        <h3>GCC is an exclusive guild of like minded individuals who support the disruptive nature of cryptocurencies into mainstream commerce and finance. It acts as a forum and space for the unrepresented and represented communities in the cryptocurrency space. Through borderless collaboration between its members, GCC aims to make cryptocurrencies as the mainstream currency of the future.
+                        <h3>GCC is an exclusive guild of like minded individuals who support the disruptive nature of cryptocurencies into mainstream commerce and finance. It acts as a forum and space for the unrepresented and represented communities in the cryptocurrency space. Through borderless collaboration between its members, GCC aims to make cryptocurrencies the mainstream currency of the future.
                         </h3>
                     </div>
                     <div  className="c1-div2-title">
@@ -69,7 +69,7 @@ class Home extends Component {
                         <CardDeck>
                             <RectCard
                                 image={Ipad}
-                                subtitle="Hubs and forum for the community to share ideas."
+                                subtitle="Hubs and forums to share and implement ideas."
 
                             />
                             <RectCard
@@ -115,14 +115,44 @@ class Home extends Component {
                                 </div>
                             </div>
                             <div className="img-bd">
-                                <img src="https://il3.picdn.net/shutterstock/videos/4662209/thumb/1.jpg" alt="singapore"/>
+                                <img src="http://static.asiawebdirect.com/m/bangkok/portals/bangkok-com/shared/teasersL/TOP10/top-10-short-things-to-do-in-bangkok/teaserMultiLarge/imageHilight/teaser.jpeg.jpg" alt="singapore"/>
                                 <div className="overlay">
-                                    <span>Singapore</span>
+                                    <span>Bangkok</span>
+                                </div>
+                            </div>
+                            <div className="img-bd">
+                                <img src="https://www.industry.nsw.gov.au/__data/assets/image/0011/56837/aerial-sydney.jpg" alt="singapore"/>
+                                <div className="overlay">
+                                    <span>Sydney</span>
                                 </div>
                             </div>
                         </div>
                         <h3>Blockchain powered decentralized guild hubs for facilitating trade and exchange between cyptocurrencies. <br/>Multicity hubs powered by cryptocurrencies using real-world scenarios in support of the implementation of cryptocurrencies into mainstream finance and commerce.
                         </h3>
+                    </div>
+                    <div  className="c1-div4-title">
+                        <h1>THE CAMPAIGN</h1>
+                    </div>
+                    <div className="c1-div4">
+                        <h1>Be Part Of The Change!</h1>
+                    </div>
+                    <div  className="c1-div5-title">
+                        <h1>JOIN THE GUILD</h1>
+                    </div>
+                    <div className="c1-div5">
+                        <h1>Be Part Of The Change</h1>
+                        <div className="test-div">
+                        <div className="test">ETH</div>
+                        <div className="test">GNO</div>
+                        <div className="test">NEO</div>
+                        <div className="test">BCC</div>
+                        <div className="test">BTC</div>
+                        <div className="test">XRP</div>
+                        <div className="test">LTC</div>
+                        <div className="test">DAO</div>
+                        <div className="test">STR</div>
+                        <div className="test">EOS</div>
+                        </div>
                     </div>
                 </Container>
             </div>
